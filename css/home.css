@@ -1,0 +1,33 @@
+﻿
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+
+
+.carousel-item .col, .col-sm, .col-md {
+    margin: 66px;
+    height: 45px;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Media Screen */
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1140px) {
+
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (max-width: 960px) {    
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 576px) {       
+}
