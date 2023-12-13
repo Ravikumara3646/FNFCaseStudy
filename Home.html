@@ -1,0 +1,500 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- meta character set -->
+    <meta charset="utf-8" />
+
+    <!-- Site Title -->
+    <title>CaseStudy - Home</title>
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0" />
+
+    <!-- Boorstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link href="css/Common.css" rel="stylesheet">
+    <link href="css/Resolution.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/Common.js"></script>
+
+</head>
+<body>
+    <!-- Navbar begin -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold mlogo" href="#">
+                <img src="./images/FidilityLogo.jpg" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTab"
+                    aria-controls="navbarTab" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTab">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Other Menu</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <li class="d-block infon">
+                    <a class="dropdown-item" href="#"></a>
+                    <img src="./images/search.png" class="search">
+                </li>
+                <li class="d-block infon">
+                    <a class="dropdown-item" href="#"></a>
+                    <img src="./images/bell.png" class="search">
+                </li>
+                <div class="dropdown infon">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./images/profile-user.png" class="profile-user">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item logout" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Banner Begin -->
+    <div id="carouselID" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" target="#carouselID" onclick="moveToSlide(0)" data-bs-slide-to="0" class="active curo-btn">
+                <p>Order 1</p>
+            </button>
+            <button type="button" target="#carouselID" onclick="moveToSlide(1)" data-bs-slide-to="1" class="curo-btn oorder2">
+                <p>Order 2</p>
+            </button>
+            <button type="button" target="#carouselID" onclick="moveToSlide(2)" data-bs-slide-to="2" class="curo-btn oorder3">
+                <p>Order 3</p>
+            </button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/Banner.jpg" alt="Bangalore" class="caurosl-img">
+                <div class="carousel-caption">
+                    <h4 class="ord-dtls">Order Summary: Order#1 Billed Amount 2500$</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/Home1.jpg" alt="Mumbai" class="caurosl-img">
+                <div class="carousel-caption">
+                    <h4 class="ord-dtls">Order Summary: Order#2 Billed Amount 3000$</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/Home3.jpg" alt="Delhi" class="caurosl-img">
+                <div class="carousel-caption">
+                    <h4 class="ord-dtls">Order Summary: Order#3 Billed Amount 3500$</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Corousel Left and right icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselID" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselID" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Body Start -->    
+
+    <div class="container-fluid">
+        <div class="row pt-4 mb-4">
+            <div class="col-10 col-sm-8 col-md-2  mx-auto d-flex align-items-center progressDirection">
+                <input type="button" id="btnProductdetails" value="Product" class="Progress Progress-active d-flex align-items-center justify-content-center font-weight-bold active" />                                    
+                <div id="btnReviewlinebar" class="line-bar line-bar-active"></div>
+                <input type="button" id="btnReviewdetails" value="Review" class="Progress Progress-inactive d-flex align-items-center justify-content-center font-weight-bold" />
+                <div id="btnPaymentlinebar" class="line-bar line-bar-inactive"></div>
+                <input type="button" id="btnPaymentdetails" value="Payment" class="Progress Progress-inactive d-flex align-items-center justify-content-center font-weight-bold" />
+                <div id="btnSummarylinebar" class="line-bar line-bar-inactive"></div>
+                <input type="button" id="btnSummarydetails" value="Summary" class="Progress Progress-inactive d-flex align-items-center justify-content-center font-weight-bold" />
+            </div>
+
+            <div class="col-10 col-sm-12 col-md-8 shadow-new p-4 bg-light mx-auto">
+
+                <div id="Productdetails" class="container-fluid mt-3">
+                    <div class="row boxborder">
+                        <div class="col-sm-4 col-lg-3">
+                            <img src="./images/Book3.jpeg" class="booksimages">
+                        </div>
+                        <div class="col-sm-8 col-lg-9">
+                            <p class="detailstext">
+                                My First Library: Boxset of 10 Board Books for Kids By Miss & Chief  (English, Hardcover, Wonder House Books)
+                            </p>
+                            <p class="detailtextalign">In Stock</p>
+                            <p class="detailtextalign">Gift option not available. <span class="more">More View</span></p>
+                            <p class="detailtextalign">Return window closed on 06-Dec-2023 </p>
+                            <p class="prod-price">₹253.00 </p>
+                            <div class="select-numm">
+                                <select class="form-select count-numb" aria-label="Default select example">
+                                    <option selected>1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                                <div class="action">
+                                    <span class="more">Delete</span>
+                                    <span class="more">Save to later</span>
+                                    <span class="more">See more like this</span>
+                                    <span class="more">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row boxborder">
+                        <div class="col-sm-4 col-lg-3">
+                            <img src="./images/Book4.jpg" class="booksimages">
+                        </div>
+                        <div class="col-sm-8 col-lg-9">
+                            <p class="detailstext">
+                                Justin Case: Rules, Tools, and Maybe a Bully by Rachel Vail & Matthew Cordel.
+                            </p>
+                            <p class="detailtextalign">In Stock</p>
+                            <p class="detailtextalign">Gift option not available. <span class="more">More View</span></p>
+                            <p class="detailtextalign">Return window closed on 06-Dec-2023 </p>
+                            <p class="prod-price">₹510.00 </p>
+                            <div class="select-numm">
+                                <select class="form-select count-numb" aria-label="Default select example">
+                                    <option selected>1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                                <div class="action">
+                                    <span class="more">Delete</span>
+                                    <span class="more">Save to later</span>
+                                    <span class="more">See more like this</span>
+                                    <span class="more">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row boxborder">
+                        <div class="col-sm-4 col-lg-3">
+                            <img src="./images/Book5.jpeg" class="booksimages">
+                        </div>
+                        <div class="col-sm-8 col-lg-9">
+                            <p class="detailstext">
+                                Tales of a Fourth Grade Nothing by Judy Blume.
+                            </p>
+                            <p class="detailtextalign">In Stock</p>
+                            <p class="detailtextalign">Gift option not available. <span class="more">More View</span></p>
+                            <p class="detailtextalign">Return window closed on 06-Dec-2023 </p>
+                            <p class="prod-price">₹899.00 </p>
+                            <div class="select-numm">
+                                <select class="form-select count-numb" aria-label="Default select example">
+                                    <option selected>1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                                <div class="action">
+                                    <span class="more">Delete</span>
+                                    <span class="more">Save to later</span>
+                                    <span class="more">See more like this</span>
+                                    <span class="more">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="button" progressid="btnReviewdetails" class="buttonClick btn btn-primary mb-4" value="Next" />
+                </div>
+    
+                <!-- Review detail -->
+                <div id="Reviewdetails" class="hide">
+                    <h4>Review</h4>
+                    <p><label>Review the selected products and modify</label></p>
+                    <div>
+                        <ul class="star-rate rating-4">
+                            <li><i class="fa fa-star rate"></i></li>
+                            <li><i class="fa fa-star rate"></i></li>
+                            <li><i class="fa fa-star rate"></i></li>
+                            <li><i class="fa fa-star rate"></i></li>
+                            <li><i class="fa fa-star rate"></i></li>
+                        </ul>
+                    </div>
+                    <div id="accordian">
+                        <div class="card">
+                            <button id="expandCollapse" class="card-header collapsed card-link"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#formdetails">
+                                <i class="fa fa-minus float-right "></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <form id="formdetails" data-parent="#accordian" class="collapse show">
+                        <label class="labelform">Your Review:</label>
+                        <div>
+                            <textarea class="form-control" id="txtReview" rows="3" placeholder="Your Review"></textarea>
+                        </div>
+                        <lable class="labelform"><b>Your Info:</b></lable>
+                        <div>
+                            <label class="labelform">Name:</label>
+                            <input type="text" class="form-control" id="txtName" placeholder="Name" autocomplete="off">
+                        </div>
+                        <div>
+                            <label class="labelform">City:</label>
+                            <input type="text" class="form-control" id="txtCity" placeholder="City">
+                        </div>
+                        <div>
+                            <label class="labelform">Email:</label>
+                            <input type="text" class="form-control" id="txtEmail" placeholder="Email">
+                        </div>
+                        <br />
+                        <div>
+                            <input type="button" class="btn btn-primary" value="Submit" />
+                        </div><br />
+                        <div class="mt-3">
+                            <input type="button" progressid="btnProductdetails"  class="buttonClick btn btn-primary" value="Previous" />
+                            <input type="button" progressid="btnPaymentdetails" class="buttonClick btn btn-primary displaybutton-right" value="Next" />
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Payment details -->
+                <div id="Paymentdetails" class="row hide">
+                    <aside class="col-sm-6">
+                        <p>Payment form 1</p>
+                        <article class="card cardborder">
+                            <div class="card-body p-5">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label for="username">Full name (on the card)</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text paymentpad"><i class="fa fa-user"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" name="username" placeholder="" required="">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="cardNumber">Card number</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text paymentpad"><i class="fa fa-credit-card"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" name="cardNumber" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <div class="form-group">
+                                                <label><span class="hidden-xs">Expiration</span> </label>
+                                                <div class="form-inline">
+                                                    <input type="text" class="form-control" id="txtMonth" placeholder="MM">
+                                                    <br />
+                                                    <input type="text" class="form-control" id="txtYear" placeholder="YY">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                                                <input class="form-control" required="" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input class="btn btn-primary btn-block mt-3" type="button" value="Confirm">
+                                </form>
+                            </div>
+                        </article>
+
+
+                    </aside>
+                    <aside class="col-sm-6">
+                        <p>Payment form 2</p>
+
+                        <article class="card cardborder">                            
+                            <div class="card-body">
+                                <div class="row">
+                                    <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+                                                <i class="fa fa-credit-card"></i> Credit Card
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+                                                <i class="fa fa-paypal"></i>  Paypal
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
+                                                <i class="fa fa-university"></i>  Bank Transfer
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="nav-tab-card">
+                                        <p class="alert alert-success">Some text success or error</p>
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="username">Full name (on the card)</label>
+                                                <input type="text" class="form-control" name="username" placeholder="" required="">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="cardNumber">Card number</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" name="cardNumber" placeholder="">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text text-muted paymentpad">
+                                                            <i class="fa fa-cc-visa"></i>
+                                                            <i class="fa fa-cc-amex"></i>
+                                                            <i class="fa fa-cc-mastercard"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <div class="form-group">
+                                                        <label><span class="hidden-xs">Expiration</span> </label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control" placeholder="MM">
+                                                            <input type="text" class="form-control" placeholder="YY">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input class="btn btn-primary btn-block mt-3" type="button" value="Confirm">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </article>
+                    </aside>
+
+                    <br />
+                    <div class="mt-3">
+                        <input type="button" progressid="btnReviewdetails" class="buttonClick btn btn-primary" value="Previous" />
+                        <input type="button" progressid="btnSummarydetails" class="buttonClick btn btn-primary displaybutton-right" value="Next" />
+                    </div>
+                </div>
+
+                
+
+                <!-- Summary details -->
+                <div id="Summarydetails" class="hide">
+                    <h4>Summary</h4>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <address>
+                                    Dharmendra Rathor <br>
+                                    Plot no. F-14 ground floor<br>
+                                    Shabdi enclave, sector 49<br>
+                                    Noida, UTTAR PRADESH 201301
+                                </address>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Order Summary</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Item(s) Subtotal:</td>
+                                            <td>$253.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping:</td>
+                                            <td>$77.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total:</td>
+                                            <td>$330.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Grand Total:</b></td>
+                                            <td><b>$330.00</b></td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row boxborder">
+                            <div class="col-sm-4 col-lg-3">
+                                <img src="./images/Book3.jpeg" class="booksimages">
+                            </div>
+                            <div class="col-sm-8 col-lg-9">
+                                <p class="detailstext">
+                                    My First Library: Boxset of 10 Board Books for Kids By Miss & Chief  (English, Hardcover, Wonder House Books)
+                                </p>
+                                <p class="detailtextalign">In Stock</p>
+                                <p class="detailtextalign">Gift option not available. <span class="more">More View</span></p>
+                                <p class="detailtextalign">Return window closed on 06-Dec-2023 </p>
+                                <p class="prod-price">₹253.00 </p>
+                                <div class="select-numm">
+                                    <select class="form-select count-numb" aria-label="Default select example">
+                                        <option selected>1</option>
+                                        <option value="1">2</option>
+                                        <option value="2">3</option>
+                                        <option value="3">4</option>
+                                    </select>
+                                    <div class="action">
+                                        <span class="more">Delete</span>
+                                        <span class="more">Save to later</span>
+                                        <span class="more">See more like this</span>
+                                        <span class="more">Share</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" progressid="btnPaymentdetails" class="buttonClick btn btn-primary" value="Previous" />
+                            <input type="button" class="btn btn-primary displaybutton-right" value="Submit" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
